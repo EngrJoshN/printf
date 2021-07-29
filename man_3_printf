@@ -1,0 +1,33 @@
+.Dd 29/07/21
+.Dt _PRINTF(3)     
+.Os Holberton
+.Sh NAME                 
+.Nm _printf
+.Nd format and print data. 
+.Sh SYNOPSIS            
+.Nm #include "holberton.h"   
+.Bl -tag -width -indent 
+.Nm int printf(const char *format, ...)
+.Bl -tag -width 
+
+.Sh DESCRIPTION       
+The function printf() produces output using the following charcter specifiers followd precided by % symbol.
+.RS 3
+%c: To be used to print characters
+.RS 0
+%s: to be used to print strings
+.RS 0
+%d: To print intergers of max and min size of an int type
+.RS o
+%i: To print integers of max and min size of an int type
+.RS 0
+%b: To print a number in binary form
+.RS 0
+.SH RETURN VALUES
+The _printf() function returns an interger representing the number of symbols printed not counting \\0 for the string.
+.SH SEE ALSO
+.I printf(3)
+.SH BUGS
+No known bugs
+.SH AUTHOR
+Joshua Onchong'a and Akinyosoye Kayode
