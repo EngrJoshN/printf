@@ -1,7 +1,6 @@
 #include <stdarg.h>
 #include "holberton.h"
 
-
 void convert_and_print(unsigned int num, int *count);
 
 /**
