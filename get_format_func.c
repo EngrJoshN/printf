@@ -31,7 +31,6 @@ int (*get_fmt_func(char fmt_identifier))(va_list *)
 		{'\0', NULL}
 	};
 	int i = 0;
-
 	while (fmt_struct_arr[i].fmt_identifier)
 	{
 		if (fmt_struct_arr[i].fmt_identifier == fmt_identifier)
